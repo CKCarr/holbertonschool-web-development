@@ -1,14 +1,10 @@
-# holbertonschool-web-development
-## Learning Objectives:
+#HTML_Advanced
 
-
-
-###html_advanced
-<details><summary>What is HTML</summary>
+<details open><summary>What is HTML</summary>
 HTML stands for HyperText Markup Language. It's the standard markup language used to create web pages. HTML provides the structure for the content that appears on web browsers. Think of it like the "skeleton" of a web page, providing a place for other technologies like CSS (styling) and JavaScript (interactivity) to attach to.
 </details>
 <br>
-<details ><summary>How to create an HTML page from a wireframe</summary>
+<details open><summary>How to create an HTML page from a wireframe</summary>
  Look at your wireframe and identify the elements you'll need (headers, paragraphs, links, images, etc.).
  <br>
  
@@ -29,25 +25,24 @@ Review and Test:
  Double-check your code against your wireframe. Make sure each part of the wireframe is represented in your HTML structure.
 </details>
 <br>
-<details><summary>What is a markup language</summary>
+<details open ><summary>What is a markup language</summary>
 A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. In simpler terms, it's a way to describe and structure your content. For example, in HTML, you use tags like &ltp&gt for paragraphs and &lth1&gt for a level-one header.
 </details>
 <br>
-<details><summary>What is the DOM</summary>
+<details open><summary>What is the DOM</summary>
 DOM stands for Document Object Model. It's a programming interface that allows you to interact with HTML (and XML) documents programmatically. When a web page is loaded, the browser creates the DOM of the page, which is an object-oriented representation of the web page's structure.
 </details>
 <br>
-<details><summary>What is an element / tag</summary>
+<details open><summary>What is an element / tag</summary>
 An element or tag in HTML defines the structure and content in an HTML document. Elements are written with a start tag, some content, and an end tag. For example, a paragraph is created using the &ltp&gt (start tag), some text, and &lt/p&gt (end tag).
 </details>
 <br>
-<details ><summary>What is an attribute</summary>
+<details open><summary>What is an attribute</summary>
 Attributes provide additional information about an element. They're placed within the opening tag. For example, in &ltimg src="image.jpg" alt="An image"&gt&ltimg src="image.jpg" alt="An image"&gt, src and alt are attributes that specify the image source and alternative text, respectively.
 </details>
 <br>
-<details ><summary>What the purpose of each HTML tag</summary>
+<details open><summary>What the purpose of each HTML tag</summary>
 Each tag serves a specific purpose in creating and laying out content.
-<br>
 
 ```
 <html>: Root element that contains all other HTML elements.
@@ -63,11 +58,3 @@ Each tag serves a specific purpose in creating and laying out content.
 ... and many more.
 ```
 </details>
-
-
-
-
-
-
-
-
