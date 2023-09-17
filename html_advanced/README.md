@@ -13,16 +13,17 @@ Create HTML Skeleton:
   (\<!DOCTYPE html>, \<html>, \<head>, \<body>).
 
 Add Semantic Elements:
- Use HTML tags that correspond to the elements you identified in your wireframe. Add them within the \<body> of your HTML document.
+Use HTML tags that correspond to the elements you identified in your wireframe. Add them within the \<body> of your HTML document.
 
 Annotate with Comments:
- If your wireframe is complex, you might add HTML comments (\<!-- like this -->) to describe what each section is for.
+If your wireframe is complex, you might add HTML comments (\<!-- like this -->) to describe what each section is for.
 
 Fill in Attributes:
- Where needed, add attributes to your elements. For example, you'll need href attributes for links and src attributes for images.
+Where needed, add attributes to your elements. For example, you'll need href attributes for links and src attributes for images.
 
 Review and Test:
- Double-check your code against your wireframe. Make sure each part of the wireframe is represented in your HTML structure.
+Double-check your code against your wireframe. Make sure each part of the wireframe is represented in your HTML structure.
+
 </details>
 <br>
 <details open ><summary>What is a markup language</summary>
@@ -57,4 +58,9 @@ Each tag serves a specific purpose in creating and laying out content.
 <table>, <tr>, <td>: Table and its rows and data cells.
 ... and many more.
 ```
+
 </details>
+
+### Wireframe used to develop this project
+
+![WireFrame for project](HTML_advanced_wireframe.png)
