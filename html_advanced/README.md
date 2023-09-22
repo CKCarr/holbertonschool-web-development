@@ -16,13 +16,13 @@ Add Semantic Elements:
 Use HTML tags that correspond to the elements you identified in your wireframe. Add them within the \<body> of your HTML document.
 
 Annotate with Comments:
-If your wireframe is complex, you might add HTML comments (\<!-- like this -->) to describe what each section is for.
+If your WireFrame is complex, you might add HTML comments (\<!-- like this -->) to describe what each section is for.
 
 Fill in Attributes:
 Where needed, add attributes to your elements. For example, you'll need href attributes for links and src attributes for images.
 
 Review and Test:
-Double-check your code against your wireframe. Make sure each part of the wireframe is represented in your HTML structure.
+Double-check your code against your WireFrame. Make sure each part of the WireFrame is represented in your HTML structure.
 
 </details>
 <br>
@@ -61,6 +61,6 @@ Each tag serves a specific purpose in creating and laying out content.
 
 </details>
 
-### Wireframe used to develop this project
+### WireFrame used to develop this project
 
 ![WireFrame for project](HTML_advanced_wireframe.png)
