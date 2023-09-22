@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./Fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Black;
+    src: url(holbertonschool-web-development/css_advanced/fonts/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-SemiBold;
+    src: url(./Fonts/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Bold;
+    src: url(./Fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro_Lightit;
+    src: url(./Fonts/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Light;
+    src: url(./Fonts/SourceSansPro-Light.otf);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+html, body {
+    overflow-x: hidden;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color: black;
+}
+
+
+.stars img {
+    height: 10px;
+    width: 10px;
+}
+
+.banner-block1 h1 {
+    font-family: Source Sans Pro-Black;
+}
+
+.banner-block2 h2 {
+    font-family: Source Sans Pro-Bold;
+}
