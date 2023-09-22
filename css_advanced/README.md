@@ -1,7 +1,7 @@
 # css_advanced
-## Learning Objectives
+### Learning Objectives
 
-# Table of Contents
+## Table of Contents
 
 1. [What is CSS](#what-is-css)
 2. [How to Add Style to an Element](#how-to-add-style-to-an-element)
@@ -13,14 +13,14 @@
 
 ![Header and Banner](images/header%20and%20banner.jpg)
 
-<details><summary><h4>What is CSS</h4></summary>
+<h4>What is CSS</h4>
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe how HTML elements should look on a webpage.<br>
 HTML structures the content, CSS styles it. You can change font sizes, colors, add margins, and much more using CSS. It is important because CSS makes web pages visually appealing as well as
 separating content (HTML) from styling (CSS), making it easier to maintain.
-</details>
 
-<details><summary><h4>How to add style to an element</h4></summary>
+
+<h4>How to add style to an element</h4>
 
 1. <b>Inline Style:</b> Directly within the HTML element using the 'style' attribute.
 ```
@@ -48,9 +48,8 @@ p {
 - <b>Best Practices</b><br>
 Use external stylesheets for larger projects for better organization and reusability.
 
-</details>
 
-<details><summary><h4>What is a class</h4></summary>
+<h4>What is a class</h4>
 
 In CSS, a class is a way to select multiple elements that share the same styling. Unlike IDs, which are unique, classes can be reused. This allows you to apply the same style to multiple elements without repeating code.
 ```
@@ -59,9 +58,7 @@ In CSS, a class is a way to select multiple elements that share the same styling
   color: blue;
 }
 ```
-</details>
-
-<details><summary><h4>What is a selector</h4></summary>
+<h4>What is a selector</h4>
 
 A selector in CSS is used to target HTML elements and apply styles to them. They are the building blocks of CSS, allowing you to target what you want to style.<br>
 <b>Types of selectors include:</b>
@@ -69,9 +66,9 @@ A selector in CSS is used to target HTML elements and apply styles to them. They
 - <b>Type selectors:</b> Target by element type (p, h1)
 - <b>Class selectors:</b> Target by class (.my-class)
 - <b>ID selectors:</b> Target by ID (#my-id)
-</details>
 
-<details><summary><h4>How to compute CSS Specificity Value</h4></summary>
+
+<h4>How to compute CSS Specificity Value</h4>
 
 The specificity of a CSS rule is determined by a set of rules usually calculated in a (0,0,0,0) format:
 
@@ -84,10 +81,9 @@ The specificity of a CSS rule is determined by a set of rules usually calculated
 EXAMPLES:
 - ' .my-class p ': (0,1,1) - 0 IDs, 1 Class, 1 Element
 - ' #my-id .my-class ': (1,1,0) - 1 ID, 1 Class, 0 Elements
-</details>
 
-<details>
-<summary><h4>What are Box properties in CSS</h4></summary>
+<section>
+<h4>What are Box properties in CSS</h4>
 
 These properties help in arranging elements properly on a page.
 These properties control layout:
@@ -96,10 +92,10 @@ These properties control layout:
 - <b>Padding:</b>  Inside the border, outside the content.
 - <b>Content:</b> The actual content.
 <img src="images/CSS-Box-Model.webp" alt="box-model-css" width="300"/>
-</details>
+</section>
 
-<details>
-<summary><h4>How does the browser load a webpage</h4></summary><br>
+<section>
+<h4>How does the browser load a webpage</h4><br>
 
 1. <b>DNS Lookup:</b> Translates URL to IP address.
 - The browser converts the human-friendly URL into an IP address.
@@ -109,4 +105,4 @@ These properties control layout:
 - The server sends back the necessary files like HTML, CSS, and JS.
 4. <b>Browser Render:</b> Parses HTML and CSS, runs JS, and renders the page.
 - Finally, your browser combines these files to display the webpage you see.
-</details>
+</section>
