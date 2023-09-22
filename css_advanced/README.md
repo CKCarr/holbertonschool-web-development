@@ -51,7 +51,7 @@ In CSS, a class is a way to select multiple elements that share the same styling
 ```
 </details>
 
-<details><summary>What is a selector</summary>
+<details><summary><h4>What is a selector</h4></summary>
 
 A selector in CSS is used to target HTML elements and apply styles to them. They are the building blocks of CSS, allowing you to target what you want to style.<br>
 <b>Types of selectors include:</b>
