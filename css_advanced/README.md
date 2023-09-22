@@ -13,14 +13,14 @@
 
 ![Header and Banner](images/header%20and%20banner.jpg)
 
-<h4>What is CSS</h4>
+<h3>What is CSS</h3>
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe how HTML elements should look on a webpage.<br>
 HTML structures the content, CSS styles it. You can change font sizes, colors, add margins, and much more using CSS. It is important because CSS makes web pages visually appealing as well as
 separating content (HTML) from styling (CSS), making it easier to maintain.
 
 
-<h4>How to add style to an element</h4>
+<h3>How to add style to an element</h3>
 
 1. <b>Inline Style:</b> Directly within the HTML element using the 'style' attribute.
 ```
@@ -49,7 +49,7 @@ p {
 Use external stylesheets for larger projects for better organization and reusability.
 
 
-<h4>What is a class</h4>
+<h3>What is a class</h3>
 
 In CSS, a class is a way to select multiple elements that share the same styling. Unlike IDs, which are unique, classes can be reused. This allows you to apply the same style to multiple elements without repeating code.
 ```
@@ -58,7 +58,7 @@ In CSS, a class is a way to select multiple elements that share the same styling
   color: blue;
 }
 ```
-<h4>What is a selector</h4>
+<h3>What is a selector</h3>
 
 A selector in CSS is used to target HTML elements and apply styles to them. They are the building blocks of CSS, allowing you to target what you want to style.<br>
 <b>Types of selectors include:</b>
@@ -68,7 +68,7 @@ A selector in CSS is used to target HTML elements and apply styles to them. They
 - <b>ID selectors:</b> Target by ID (#my-id)
 
 
-<h4>How to compute CSS Specificity Value</h4>
+<h3>How to compute CSS Specificity Value</h3>
 
 The specificity of a CSS rule is determined by a set of rules usually calculated in a (0,0,0,0) format:
 
@@ -83,7 +83,7 @@ EXAMPLES:
 - ' #my-id .my-class ': (1,1,0) - 1 ID, 1 Class, 0 Elements
 
 <section>
-<h4>What are Box properties in CSS</h4>
+<h3>What are Box properties in CSS</h3>
 
 These properties help in arranging elements properly on a page.
 These properties control layout:
@@ -95,7 +95,7 @@ These properties control layout:
 </section>
 
 <section>
-<h4>How does the browser load a webpage</h4><br>
+<h3>How does the browser load a webpage</h3><br>
 
 1. <b>DNS Lookup:</b> Translates URL to IP address.
 - The browser converts the human-friendly URL into an IP address.
