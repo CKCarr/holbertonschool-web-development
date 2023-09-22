@@ -1,3 +1,4 @@
+/*--------------------FONTS-------------------------------------------*/
 @font-face {
     font-family: Source Sans Pro;
     src: url(./Fonts/SourceSansPro-Regular.otf);
@@ -5,43 +6,168 @@
 
 @font-face {
     font-family: Source Sans Pro-Black;
-    src: url(holbertonschool-web-development/css_advanced/fonts/SourceSansPro-Black.otf);
+    src: url(./fonts/SourceSansPro-Black.otf);
 }
 
 @font-face {
     font-family: Source Sans Pro-SemiBold;
-    src: url(./Fonts/SourceSansPro-Semibold.otf);
+    src: url(./fonts/SourceSansPro-Semibold.otf);
 }
 
 @font-face {
     font-family: Source Sans Pro-Bold;
-    src: url(./Fonts/SourceSansPro-Bold.otf);
+    src: url(./fonts/SourceSansPro-Bold.otf);
 }
 
 @font-face {
     font-family: Source Sans Pro_Lightit;
-    src: url(./Fonts/SourceSansPro-LightIt.otf);
+    src: url(./fonts/SourceSansPro-LightIt.otf);
 }
 
 @font-face {
     font-family: Source Sans Pro-Light;
-    src: url(./Fonts/SourceSansPro-Light.otf);
+    src: url(./fonts/SourceSansPro-Light.otf);
 }
 
+@font-face {
+    font-family: spincycle_ot;
+    src: url(./fonts/spincycle_ot.otf)
+}
+/*---------------------BASE FOR IMGS------------------------------------------*/
 img {
     width: 150px;
     height: 150px;
 }
-
-html, body {
+/*-------------------HTML BODY--------------------------------------------*/
+body {
     overflow-x: hidden;
     background-image: url(./images/background.png);
     background-repeat: no-repeat;
     margin: auto;
-    background-color: black;
+    background-color:;
+    flex-shrink: 0;
+}
+
+span {
+        color: #C271FF;
+}
+/*------------------HEADER SECTION /NAV BAR /BANNER SECTION STYLING---------------------------------------------*/
+
+header {
+    width: 1440px;
+    height: 1093px;
+    flex-shrink: 0;
+}
+
+.nav-bar {
+    border: 3px black solid;
+    height: 80px;
+    width: auto;
+    margin: 0px 100px;
+}
+
+.nav-bar img {
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+
+.links{
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: red solid 3px;
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.headerlogo {
+    border: purple 3px solid;
+    height: 30px;
+    width: auto;
+}
+
+.banner-button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.links a {
+    color: #FFF;
+    font-family: Source Sans Pro-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px;
+    border: blue solid 2px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.banner-block1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-block2 h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-block2 {
+        border: 3px rgb(241, 47, 47) solid;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.banner-person p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+/*------------------------------- QUOTE SECTION STYLING --------------------------------*/
+
+
+
+
+/*------------------------------ VIDEO SECTION STYLING ---------------------------------*/
+.video-info > h3, .video-rating p {
+    color: #C271FF;
 }
 
 
+/*----------------------------------- MEMBERSHIP SECTION STYLING ----------------------------*/
+
+
+
+/*------------------------------- FAQ SECTION STYLING --------------------------------*/
+
+
+/*------------------------------- FOOTER SECTION STYLING --------------------------------*/
 .stars img {
     height: 10px;
     width: 10px;
