@@ -1,6 +1,16 @@
 # css_advanced
 ## Learning Objectives
 
+# Table of Contents
+
+1. [What is CSS](#what-is-css)
+2. [How to Add Style to an Element](#how-to-add-style-to-an-element)
+3. [What is a Class](#what-is-a-class)
+4. [What is a Selector](#what-is-a-selector)
+5. [How to Compute CSS Specificity Value](#how-to-compute-css-specificity-value)
+6. [What are Box Properties in CSS](#what-are-box-properties-in-css)
+7. [How Does the Browser Load a Webpage](#how-does-the-browser-load-a-webpage)
+
 ![Header and Banner](images/header%20and%20banner.jpg)
 
 <details><summary><h4>What is CSS</h4></summary>
