@@ -3,14 +3,14 @@
 
 ![Header and Banner](images/header%20and%20banner.jpg)
 
-<details><summary>What is CSS<summary>
+<details><summary>What is CSS</summary>
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe how HTML elements should look on a webpage.<br>
 HTML structures the content, CSS styles it. You can change font sizes, colors, add margins, and much more using CSS. It is important because CSS makes web pages visually appealing as well as
 separating content (HTML) from styling (CSS), making it easier to maintain.
 </details>
 
-<details><summary>How to add style to an element<summary>
+<details><summary>How to add style to an element</summary>
 
 1. <b>Inline Style:</b> Directly within the HTML element using the 'style' attribute.
 ```
@@ -40,7 +40,7 @@ Use external stylesheets for larger projects for better organization and reusabi
 
 </details>
 
-<details><summary>What is a class<summary>
+<details><summary>What is a class</summary>
 
 In CSS, a class is a way to select multiple elements that share the same styling. Unlike IDs, which are unique, classes can be reused. This allows you to apply the same style to multiple elements without repeating code.
 ```
@@ -77,7 +77,7 @@ EXAMPLES:
 </details>
 
 <details>
-<summary>What are Box properties in CSS<summary>
+<summary>What are Box properties in CSS</summary>
 
 These properties help in arranging elements properly on a page.
 These properties control layout:
@@ -89,7 +89,7 @@ These properties control layout:
 </details>
 
 <details>
-<summary>How does the browser load a webpage<summary><br>
+<summary>How does the browser load a webpage</summary><br>
 
 1. <b>DNS Lookup:</b> Translates URL to IP address.
 - The browser converts the human-friendly URL into an IP address.
