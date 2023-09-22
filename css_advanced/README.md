@@ -51,7 +51,7 @@ In CSS, a class is a way to select multiple elements that share the same styling
 ```
 </details>
 
-<details><summary>What is a selector</summary>
+<details><summary>What is a selector<summary>
 
 A selector in CSS is used to target HTML elements and apply styles to them. They are the building blocks of CSS, allowing you to target what you want to style.<br>
 <b>Types of selectors include:</b>
@@ -85,7 +85,7 @@ These properties control layout:
 - <b>Border:</b> Surrounds the padding and content.
 - <b>Padding:</b>  Inside the border, outside the content.
 - <b>Content:</b> The actual content.
-![box-model-css](images/CSS-Box-Model.webp)
+<img src="images/CSS-Box-Model.webp" alt="box-model-css" width="300"/>
 </details>
 
 <details>
